@@ -4,7 +4,7 @@ import { fetchQuizQuestions } from "./API";
 import QuestionCard from "./components/QuestionCard";
 //types
 import { QuestionState, Difficulty } from "./API";
-//stuyles
+//styles
 import { GlobalStyle, Wrapper } from "./App.styles";
 
 export type AnswerObject = {
@@ -14,7 +14,7 @@ export type AnswerObject = {
   correctAnswer: string;
 };
 
-const TOTAL_QUESTIONS = 10;
+const TOTAL_QUESTIONS = 7;
 
 const App = () => {
   const [loading, setLoading] = useState(false);

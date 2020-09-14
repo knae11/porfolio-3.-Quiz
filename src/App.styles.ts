@@ -1,5 +1,4 @@
 import styled, { createGlobalStyle } from "styled-components";
-import BGImage from "./images/illustrationbg.png";
 
 export const GlobalStyle = createGlobalStyle`
   html{
@@ -7,7 +6,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body{
-    background-image: url(${BGImage});
+    background-color:#00c6ad;
     background-size: cover;
     margin:0;
     padding: 0 20px;
@@ -27,17 +26,20 @@ export const Wrapper = styled.div`
   align-items: center;
 
   > p {
-    color: #ffffff;
+    color: #f85a2b;
+    font-weight: 700;
+    text-transform: uppercase;
   }
   .score {
-    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f85a2b;
     font-size: 2rem;
     margin: 0;
   }
 
   h1 {
-    background-image: linear-gradient(180deg, #ffffff, #87f1ff);
-    background-size: 100%;
+    color: #1947e5;
     font-size: 70px;
     text-align: center;
     margin: 20px;
@@ -46,7 +48,9 @@ export const Wrapper = styled.div`
   .start,
   .next {
     cursor: pointer;
-    background: yellow;
+    background: #f85a2b;
+    font-weight: 700;
+    text-transform: uppercase;
     border: 2px solid black;
     border-radius: 10px;
     height: 40px;

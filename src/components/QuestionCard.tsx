@@ -22,26 +22,25 @@ const QuestionCard: React.FC<Props> = ({
     <p className="number">
       Question: {questionNr} / {totalQuestions}
     </p>
-    <p>
-      {question}
-      <div>
-        {answers.map((answer) => (
-          <ButtonWrapper
-            key={answer}
-            correct={userAnswer?.correctAnswer === answer}
-            userClicked={userAnswer?.answer === answer}
+    <p dangerouslySetInnerHTML={{ __html: question }} />
+
+    <div>
+      {answers.map((answer) => (
+        <ButtonWrapper
+          key={answer}
+          correct={userAnswer?.correctAnswer === answer}
+          userClicked={userAnswer?.answer === answer}
+        >
+          <button
+            disabled={userAnswer ? true : false}
+            value={answer}
+            onClick={callback}
           >
-            <button
-              disabled={userAnswer ? true : false}
-              value={answer}
-              onClick={callback}
-            >
-              <span>{answer}</span>
-            </button>
-          </ButtonWrapper>
-        ))}
-      </div>
-    </p>
+            <span dangerouslySetInnerHTML={{ __html: answer }} />
+          </button>
+        </ButtonWrapper>
+      ))}
+    </div>
   </Wrapper>
 );
 
