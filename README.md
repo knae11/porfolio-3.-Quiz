@@ -2,7 +2,7 @@ TypeScript와 React를 활용한 Quiz
 
 1. Title : Quiz
 
-2.  <br/>
+2. 사용기술 <br/>
 TypeScript : 함수가 호출됨에 따라 각 변수의 타입을 지정하기 위함 <br/>
 React : 기능별로 component별로 쪼개어 모듈화 하기 위함
 
