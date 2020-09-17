@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/porfolio-3.-Quiz/static/js/main.63823d59.chunk.js",
-    "main.js.map": "/porfolio-3.-Quiz/static/js/main.63823d59.chunk.js.map",
+    "main.js": "/porfolio-3.-Quiz/static/js/main.e2e2b420.chunk.js",
+    "main.js.map": "/porfolio-3.-Quiz/static/js/main.e2e2b420.chunk.js.map",
     "runtime-main.js": "/porfolio-3.-Quiz/static/js/runtime-main.074bbcf3.js",
     "runtime-main.js.map": "/porfolio-3.-Quiz/static/js/runtime-main.074bbcf3.js.map",
     "static/js/2.a0d91059.chunk.js": "/porfolio-3.-Quiz/static/js/2.a0d91059.chunk.js",
     "static/js/2.a0d91059.chunk.js.map": "/porfolio-3.-Quiz/static/js/2.a0d91059.chunk.js.map",
     "index.html": "/porfolio-3.-Quiz/index.html",
-    "precache-manifest.bdf1d0374fb52c66715f94edc3984f40.js": "/porfolio-3.-Quiz/precache-manifest.bdf1d0374fb52c66715f94edc3984f40.js",
+    "precache-manifest.779854fadc2ef25e785adfdb4aefa7ca.js": "/porfolio-3.-Quiz/precache-manifest.779854fadc2ef25e785adfdb4aefa7ca.js",
     "service-worker.js": "/porfolio-3.-Quiz/service-worker.js",
     "static/js/2.a0d91059.chunk.js.LICENSE.txt": "/porfolio-3.-Quiz/static/js/2.a0d91059.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.074bbcf3.js",
     "static/js/2.a0d91059.chunk.js",
-    "static/js/main.63823d59.chunk.js"
+    "static/js/main.e2e2b420.chunk.js"
   ]
 }
